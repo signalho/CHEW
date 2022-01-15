@@ -5,7 +5,7 @@ To handle string freely in C lang you need 4 func
 • 문자열을 복사하는 함수
 • 문자열을 합치는 함수 (즉 더하는)
 • 문자열을 비교하는 함수
-*/
+*/ 
 
 int str_length(char *str) { 
     int i = 0;
