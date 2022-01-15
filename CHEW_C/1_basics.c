@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 ///////삼 항 연산자///Three Operand//////////////////////
 int ThreeOp(void){
     int num=-10, abs;
