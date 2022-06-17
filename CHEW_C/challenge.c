@@ -166,6 +166,8 @@ int main(void){
             printf("CHALLENGE 3\n");
             CH3_1();
             // CH3_2();
+            // CH3_1();
+            CH3_2();
             break;
         case 4:
             printf("CHALLENGE 4\n");

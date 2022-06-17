@@ -4,8 +4,8 @@
 typedef int CAL_TYPE; // used when type varies
 ///////////////STRUCT POINTER/////////////////////////////
 struct point{
-    CAL_TYPE xpos;
-    CAL_TYPE ypos;
+    int xpos;
+    int ypos;
 };
 int structpointer(void){
     struct point pos1={1,2};
@@ -43,6 +43,9 @@ Person ReadPerosonInfo(void){
     // pptr -> name = "jung";       // gets error since char is literal
     strcpy(man.name, "jjj");        // use strcpy with string.h instead
     strcpy(pptr -> name, "literal");
+    // pptr -> name = "jung";       // gets error since char is an array
+    strcpy(man.name, "jjj");        // use strcpy with string.h instead
+    strcpy(pptr -> name, "jjjj");
     pptr -> age = 25;
     return man;
 }

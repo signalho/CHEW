@@ -6,6 +6,7 @@
 // whenever the function is going on or over
 // Using <stdlib.h>
 // void *malloc(size_t size); -> int *ptr = (int *)malloc(sizeof(int)*size_variable);
+// void *malloc(size_t size); -> int *ptr = (int *)malloc(sizeof(int)*7);
 // void free(void *ptr);
 
 // There is other alternative
